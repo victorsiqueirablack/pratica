@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    div > .dd1{
+        display: none;
+        background-color: rgb(249, 137, 0);
+        width: 300px;
+    }
+    div:hover > .dd1{
+        display: block;
+    }
+    div:hover{
+        color: rgb(255, 0, 0);
+    }
+    div > p{
+        display: none;
+    }
+    div:hover > p{
+        display: block;
+        background-color: blue;
+        width: 300px;
+    }
+
+
+</style>
+<body>
+    <h1>exercicios</h1>
+    <div>
+        passe  mause em cima
+        <p class="dd1">texto escondido!!!!!!</p>
+        <p>###########!!!!!!!!!!!!!!!!</p>
+
+    </div>
+</body>
+</html>

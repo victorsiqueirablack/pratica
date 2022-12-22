@@ -1,0 +1,25 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    width:100% ;
+}
+body{
+    background-image: linear-gradient( to top , #fe0000,#ca2828,#9f4848, #923f3f);
+}
+main{
+    
+    text-align:justify;
+    top: auto;
+}
+h1{
+    font: italic bold 4em 'Kenia' ;
+}
+h2{
+    font: italic bolder 2em  'La Belle Aurore';
+}
+p{
+    font:italic bold 1.5em 'Indie Flower', 'cursive';
+}

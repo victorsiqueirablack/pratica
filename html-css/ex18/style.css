@@ -1,0 +1,30 @@
+*{
+    height: 100%;
+}
+body{
+    font-family: cursive;
+    background-image: linear-gradient(to bottom,#ea8282,#b32222,#880000);
+}
+h1{
+    background-color: #cb898988;
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 20px;
+    outline: 80px;
+    text-align: center;
+}
+p{
+   
+    text-align: justify;
+    
+    
+}
+a{
+    border: 45px solid black;
+    text-decoration: none;
+}
+a:active{
+    color: #b3ff00;
+}

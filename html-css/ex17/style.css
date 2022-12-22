@@ -1,0 +1,33 @@
+@font-face {
+    font-family:'fonts/RUNE.TTF' ;
+    src: url('fonts/RUNE.TTF') format('truetype');
+}
+
+body{
+    background-image: linear-gradient(to left,#03FCA7,#D31CFC); 
+    font-family: 'fonts/RUNE.TTF';
+}
+
+div{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    display: inline-flex;
+}
+
+div:hover{
+    background-image: linear-gradient(to left,#DE6159,#F56E94,#DE59C1);
+    display: block;
+}
+p{
+    font-family: 'fonts/RUNE.TTF';
+    text-align: justify;
+}
+.dd2{
+    font-family: 'fonts/RUNE.TTF';
+}
+.dd3{
+    
+}
+i

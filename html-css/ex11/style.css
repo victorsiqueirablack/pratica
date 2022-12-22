@@ -1,0 +1,35 @@
+@charset "UTF-8"
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+ 
+    height:100% ;
+}
+body{
+    background-image: linear-gradient(to left,#a8dadc,#457b9d);
+}
+h1{
+    text-align: center;
+    color:#e63946;
+    text-shadow: 5px 5px 5px #1d3557;
+    font-size: 4em;
+    font-family: cursive;
+}
+h2{
+    color: #1d3557;
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #1d355797;
+    width: 600px;
+    padding: 10px; 
+    margin: auto;
+
+}
+p{
+    text-align: justify;
+    font-family: fantasy;
+}
